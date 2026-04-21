@@ -22,8 +22,8 @@ library(ggridges)
 library(RColorBrewer)
 
 # Paths
-DATA_DIR <- "data/r_exports"
-OUT_DIR  <- "data/r_figures"
+DATA_DIR <- "/Users/vatsalbateriwala/Developer/sem 6/BDA Lab/BDA-FINAL-PROJECT/data/r_exports"
+OUT_DIR  <- "/Users/vatsalbateriwala/Developer/sem 6/BDA Lab/BDA-FINAL-PROJECT/data/r_figures"
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 # Load all exported files
