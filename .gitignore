@@ -1,0 +1,32 @@
+# Raw / downloaded datasets
+datasets/
+
+# Data folders
+data/epa_raw/
+data/extracted/
+data/processed/*
+!data/processed/station_metadata.csv
+
+# Keep folder structure if needed
+!data/epa_raw/.gitkeep
+!data/extracted/.gitkeep
+!data/processed/.gitkeep
+
+# Python cache / virtual env
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
